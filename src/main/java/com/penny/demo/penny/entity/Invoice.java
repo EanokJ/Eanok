@@ -13,7 +13,7 @@ public class Invoice {
     private int userRefId;
     private String issueDate;
     private String dueDate;
-    private Vendor vendor;
+    private String vendorName;
     private String vendorAddress;
     private String invoiceNumber;
     private String reason;
@@ -23,5 +23,6 @@ public class Invoice {
     private double totalAmount;
     private String currency;
     private String invoiceDate;
+    private int daysExceed;
 
 }
